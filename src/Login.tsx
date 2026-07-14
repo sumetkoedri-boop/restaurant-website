@@ -79,11 +79,6 @@ function Login() {
           Login
         </button>
 
-
-        <button onClick={()=>navigate("/register")}>
-          Register
-        </button>
-
       </div>
 
 

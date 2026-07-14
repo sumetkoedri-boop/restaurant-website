@@ -389,23 +389,3 @@ dd {
 .login-box button:hover {
   background: #24574d;
 }
-.register-text {
-  text-align: center;
-  margin-top: 15px;
-}
-
-.register-text a {
-  color: #2f6f63;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.register-text a:hover {
-  text-decoration: underline;
-}
-.button-group {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-top: 20px;
-}
