@@ -18,8 +18,22 @@ function Login() {
     try {
 
    
-      const response = await fetch("http://localhost:3001/users");
-      const users = await response.json();
+      const users = [
+  {
+    username: "test",
+    password: "1234"
+  },
+  {
+    username: "muha",
+    password: "123"
+  }
+];
+
+  const user = users.find(
+    (u) =>
+      u.username === username &&
+      u.password === password
+);
 
       const user = users.find(
         (u:any) =>

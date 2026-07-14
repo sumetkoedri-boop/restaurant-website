@@ -1,15 +1,14 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "username": "test",
       "password": "1234"
     },
     {
+      "id": 2,
       "username": "muha",
-      "password": "123",
-      "id": "IJfRf8cMNDQ"
+      "password": "123"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
