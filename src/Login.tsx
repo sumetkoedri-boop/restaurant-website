@@ -29,12 +29,6 @@ function Login() {
   }
 ];
 
-  const user = users.find(
-    (u) =>
-      u.username === username &&
-      u.password === password
-);
-
       const user = users.find(
         (u:any) =>
           u.username === username &&
