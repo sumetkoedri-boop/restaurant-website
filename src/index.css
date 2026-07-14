@@ -1,0 +1,38 @@
+:root {
+  font-family:
+    "Segoe UI",
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+  color: #2e241f;
+  background:
+    linear-gradient(135deg, rgba(47, 111, 99, 0.12), transparent 34%),
+    linear-gradient(315deg, rgba(185, 65, 47, 0.12), transparent 35%),
+    #fbf3ea;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  display: block;
+}
