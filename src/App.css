@@ -389,3 +389,8 @@ dd {
 .login-box button:hover {
   background: #24574d;
 }
+.logo {
+  width: 120px;
+  display: block;
+  margin: 0 auto 20px;
+}

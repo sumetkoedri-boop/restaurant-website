@@ -28,12 +28,12 @@ function Login() {
     password: "123"
   }
 ];
-
+  
       const user = users.find(
-        (u:any) =>
-          u.username === username &&
-          u.password === password
-      );
+  (u) =>
+    u.username === username &&
+    u.password === password
+);
 
       if(user){
 
@@ -61,6 +61,9 @@ function Login() {
   <div className="login-container">
 
     <div className="login-box">
+
+    <img src="/logo.png" alt="Logo" className="logo" />
+
 
       <h1>Login</h1>
 
